@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Сменить тему</button>
+    </header>
+
+    <main>
+        <section id="main-content">
+            <h1>Привет, я Александр</h1>
+            <p>:).</p>
+            <img src="path/to/your/photo.jpg" alt="Ваше Фото">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> [Ваш Никнейм]</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
